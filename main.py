@@ -164,7 +164,7 @@ def on_message(ws, message):
 
 def on_open(ws):
     print("🌐 Connexion au WebSocket Deriv réussie !")
-    send_telegram_msg("🤖 <b>Bot Synthétique Deriv (10 Actifs - 24/7) connecté avec succès !</b>")
+   # send_telegram_msg("🤖 <b>Bot Synthétique Deriv (10 Actifs - 24/7) connecté avec succès !</b>")
     
     # Demander l'historique M1 pour chaque actif
     for symbol in SYMBOLS:
